@@ -1,5 +1,7 @@
 package src.me.chunza2542.hellojava;
 
+import java.awt.*;
+
 public class HelloJava {
 
     private static int counter = 1;
@@ -18,7 +20,11 @@ public class HelloJava {
         }
     }
 
-    public static void printMax(int... numbers) {
+    public static void printMax(int... numbers) throws PrintMaxException {
+        if (numbers.length < 5) {
+            throw new PrintMaxException(numbers.length);
+        }
+
         int max = 0;
 
         for (int i = 0; i < numbers.length; i++) {
@@ -39,8 +45,14 @@ public class HelloJava {
         // print the counter output
         System.out.println("Counter: " + HelloJava.counter);
 
-        // print the max numbers
-        printMax(new int[]{10, 20, 30});
+        // print the max numbers with Exception
+        try {
+            printMax(new int[]{10, 20, 30, 60, 100});
+        } catch (PrintMaxException e) {
+            System.out.println("Sorry, we can't find max number because your array is lower than 5: " + e.getLength());
+            e.printStackTrace();
+        }
+
 
         // print data from inner class
         InnerClass inner = new InnerClass();
