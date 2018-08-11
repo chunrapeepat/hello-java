@@ -3,6 +3,20 @@ package src.me.chunza2542.hellojava;
 public class HelloJava {
 
     private static int counter = 1;
+    private static String secret = "chunza2542";
+
+    private static abstract class Animal {
+        public abstract void speak();
+    }
+
+    private static class InnerClass {
+        public void print() {
+            System.out.println("Hello from inner class!!!");
+        }
+        public void printSecret() {
+            System.out.println("The secret is: " + secret);
+        }
+    }
 
     public static void printMax(int... numbers) {
         int max = 0;
@@ -27,6 +41,10 @@ public class HelloJava {
 
         // print the max numbers
         printMax(new int[]{10, 20, 30});
+
+        // print data from inner class
+        InnerClass inner = new InnerClass();
+        inner.printSecret();
     }
 
 }
