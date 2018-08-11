@@ -69,6 +69,13 @@ public class HelloJava {
         };
 
         dog.speak();
+
+        // start thread executing
+        MyRunnable r1 = new MyRunnable("t1");
+        r1.start();
+
+        MyRunnable r2 = new MyRunnable("t2");
+        r2.start();
     }
 
 }

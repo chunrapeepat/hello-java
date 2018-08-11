@@ -5,8 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b81f9a0a-18a2-402e-8186-e3c6e5437852" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/me/chunza2542/hellojava/HelloJava.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/me/chunza2542/hellojava/HelloJava.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -19,11 +17,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="HelloJava.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="HelloJava.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/me/chunza2542/hellojava/HelloJava.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="309">
-              <caret line="54" column="35" selection-start-line="54" selection-start-column="35" selection-end-line="54" selection-end-column="35" />
+            <state relative-caret-position="482">
+              <caret line="76" column="19" selection-start-line="76" selection-start-column="19" selection-end-line="76" selection-end-column="19" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#216#217#0" expanded="true" />
@@ -37,7 +35,16 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PrintMaxException.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="MyRunnable.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/me/chunza2542/hellojava/MyRunnable.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="573">
+              <caret line="30" column="22" selection-start-line="30" selection-start-column="22" selection-end-line="30" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PrintMaxException.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/me/chunza2542/hellojava/PrintMaxException.java">
           <provider selected="true" editor-type-id="text-editor">
             <state>
@@ -69,8 +76,9 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/src/me/chunza2542/hellojava/HelloJava.java" />
         <option value="$PROJECT_DIR$/src/me/chunza2542/hellojava/PrintMaxException.java" />
+        <option value="$PROJECT_DIR$/src/me/chunza2542/hellojava/MyRunnable.java" />
+        <option value="$PROJECT_DIR$/src/me/chunza2542/hellojava/HelloJava.java" />
       </list>
     </option>
   </component>
@@ -219,7 +227,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1533977320802</updated>
-      <workItem from="1533977324747" duration="5865000" />
+      <workItem from="1533977324747" duration="6675000" />
     </task>
     <task id="LOCAL-00001" summary="Initialize Project using intellij idea">
       <created>1533977371082</created>
@@ -232,7 +240,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5865000" />
+    <option name="totallyTimeSpent" value="6675000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="937" extended-state="6" />
@@ -298,22 +306,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/me/chunza2542/hellojava/HelloJava.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="309">
-          <caret line="54" column="35" selection-start-line="54" selection-start-column="35" selection-end-line="54" selection-end-column="35" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#216#217#0" expanded="true" />
-            <element signature="e#287#288#0" expanded="true" />
-            <element signature="e#323#324#0" expanded="true" />
-            <element signature="e#367#368#0" expanded="true" />
-            <element signature="e#1289#1411#0" expanded="true" />
-            <element signature="e#1410#1411#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/me/chunza2542/hellojava/PrintMaxException.java">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -324,6 +316,29 @@
             <element signature="e#223#224#0" expanded="true" />
             <element signature="e#257#258#0" expanded="true" />
             <marker date="1533990535789" expanded="true" signature="88:248" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/me/chunza2542/hellojava/MyRunnable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="573">
+          <caret line="30" column="22" selection-start-line="30" selection-start-column="22" selection-end-line="30" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/me/chunza2542/hellojava/HelloJava.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="482">
+          <caret line="76" column="19" selection-start-line="76" selection-start-column="19" selection-end-line="76" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#216#217#0" expanded="true" />
+            <element signature="e#287#288#0" expanded="true" />
+            <element signature="e#323#324#0" expanded="true" />
+            <element signature="e#367#368#0" expanded="true" />
+            <element signature="e#1289#1411#0" expanded="true" />
+            <element signature="e#1410#1411#0" expanded="true" />
           </folding>
         </state>
       </provider>
