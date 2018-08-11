@@ -1,11 +1,14 @@
 package src.me.chunza2542.hellojava;
 
 import java.awt.*;
+import java.util.logging.Level;
+import java.util.logging.Logger;
 
 public class HelloJava {
 
     private static int counter = 1;
     private static String secret = "chunza2542";
+    private static Logger logger = Logger.getLogger(HelloJava.class.getName());
 
     private static abstract class Animal {
         public abstract void speak();
@@ -47,10 +50,9 @@ public class HelloJava {
 
         // print the max numbers with Exception
         try {
-            printMax(new int[]{10, 20, 30, 60, 100});
+            printMax(new int[]{10, 20, 30});
         } catch (PrintMaxException e) {
-            System.out.println("Sorry, we can't find max number because your array is lower than 5: " + e.getLength());
-            e.printStackTrace();
+            logger.log(Level.SEVERE,"Sorry, we can't find max number because your array is lower than 5: " + e.getLength());
         }
 
 
