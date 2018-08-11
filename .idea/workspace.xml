@@ -17,13 +17,15 @@
       <file leaf-file-name="HelloJava.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/me/chunza2542/hellojava/HelloJava.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="400">
-              <caret line="42" column="28" selection-start-line="42" selection-start-column="28" selection-end-line="42" selection-end-column="28" />
+            <state relative-caret-position="346">
+              <caret line="54" column="10" selection-start-line="54" selection-start-column="10" selection-end-line="54" selection-end-column="10" />
               <folding>
                 <element signature="e#216#217#0" expanded="true" />
                 <element signature="e#287#288#0" expanded="true" />
                 <element signature="e#323#324#0" expanded="true" />
                 <element signature="e#367#368#0" expanded="true" />
+                <element signature="e#1289#1411#0" expanded="true" />
+                <element signature="e#1410#1411#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -194,7 +196,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1533977320802</updated>
-      <workItem from="1533977324747" duration="2753000" />
+      <workItem from="1533977324747" duration="2972000" />
     </task>
     <task id="LOCAL-00001" summary="Initialize Project using intellij idea">
       <created>1533977371082</created>
@@ -207,7 +209,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2753000" />
+    <option name="totallyTimeSpent" value="2972000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1680" height="937" extended-state="6" />
@@ -222,7 +224,7 @@
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" />
       <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.23290846" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.30706838" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Terminal" />
       <window_info id="Capture Tool" />
@@ -270,13 +272,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/me/chunza2542/hellojava/HelloJava.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="42" column="28" selection-start-line="42" selection-start-column="28" selection-end-line="42" selection-end-column="28" />
+        <state relative-caret-position="346">
+          <caret line="54" column="10" selection-start-line="54" selection-start-column="10" selection-end-line="54" selection-end-column="10" />
           <folding>
             <element signature="e#216#217#0" expanded="true" />
             <element signature="e#287#288#0" expanded="true" />
             <element signature="e#323#324#0" expanded="true" />
             <element signature="e#367#368#0" expanded="true" />
+            <element signature="e#1289#1411#0" expanded="true" />
+            <element signature="e#1410#1411#0" expanded="true" />
           </folding>
         </state>
       </provider>

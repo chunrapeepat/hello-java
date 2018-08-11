@@ -45,6 +45,16 @@ public class HelloJava {
         // print data from inner class
         InnerClass inner = new InnerClass();
         inner.printSecret();
+
+        // anonymous inner class
+        Animal dog = new Animal() {
+            @Override
+            public void speak() {
+                System.out.println("Wofffffffffffff~");
+            }
+        };
+
+        dog.speak();
     }
 
 }
